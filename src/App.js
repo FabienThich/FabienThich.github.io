@@ -12,8 +12,7 @@ function App() {
       <div className="App">
           <Header />
           <Routes>
-              <Route exact path='/'/>
-              <Redirect to='/home' />
+              <Route path='home' element={<Home/>} />
               <Route path='internship' element={<Internship/>} />
           </Routes>
         </div>

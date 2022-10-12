@@ -4,7 +4,7 @@ function Internship() {
     return(
         <body>
             <div>
-                {/** Heading! **/}
+                {/** Heading **/}
                 <h2 style={{"fontSize":"50px"}}>Internship Logs</h2>
                 
                 <br />

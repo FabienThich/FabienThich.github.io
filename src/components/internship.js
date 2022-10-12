@@ -98,7 +98,7 @@ function Internship() {
                 <img src="Using CSS ClassName.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
                 <h2 className='subheading'>Classes And Formatting</h2>
                 <p className='paragraph'> My mentor advised me to take notice of processes I find myself constantly doing that take up time to-which I could have spent being more productive such as coding, debugging, researching etc… To my surprise, I found myself constantly using the same inline styling for my internship logs. This essentially led me to create CSS classes which I could reuse for future logs. As well, I figured out a solution to my text alignment and font size errors which originated from incorrect slash placements in tags when converting HTML to JSX.</p>
-                    <p className='date'>(October 6, 2022)</p>     
+                    <p className='date'>(October 6, 2022!!!)</p>     
                 <p />
 
                 <br />

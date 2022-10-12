@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fabienthich.github.io/static/css/main.e05afa6f.css",
-    "main.js": "/fabienthich.github.io/static/js/main.871a7caf.js",
-    "static/js/787.28cb0dcd.chunk.js": "/fabienthich.github.io/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/fabienthich.github.io/index.html",
-    "main.e05afa6f.css.map": "/fabienthich.github.io/static/css/main.e05afa6f.css.map",
-    "main.871a7caf.js.map": "/fabienthich.github.io/static/js/main.871a7caf.js.map",
-    "787.28cb0dcd.chunk.js.map": "/fabienthich.github.io/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.e05afa6f.css",
+    "main.js": "/static/js/main.f57b64a3.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/index.html",
+    "main.e05afa6f.css.map": "/static/css/main.e05afa6f.css.map",
+    "main.f57b64a3.js.map": "/static/js/main.f57b64a3.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e05afa6f.css",
-    "static/js/main.871a7caf.js"
+    "static/js/main.f57b64a3.js"
   ]
 }

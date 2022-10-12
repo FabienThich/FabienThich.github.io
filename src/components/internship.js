@@ -105,6 +105,30 @@ function Internship() {
                 <br />
                 <br />
                 <br />
+
+                {/** New Section **/}
+                <img src="React Homepage.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>Working On My Home Page</h2>
+                <p className='paragraph'> The main focus of today was to fix up on my internship formatting as well as adding the rest of my internship logs onto my react website. After doing so, I noticed that I have not touched my home page since I started my React journey. As such, I worked on my home page to hook the readers into the website. Additionally, I plan to work on my home page and give a proper introduction to the readers. My primary focus at the moment is to deploy my React website onto Github as soon as possible.</p>
+                    <p className='date'>(October 11, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
+
+                {/** New Section **/}
+                <img src="Default Homepage.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>Launching My React Website</h2>
+                <p className='paragraph'> Today was the day I officially launched my React website. As of right now, you are seeing two components on this website, a <b>Header</b> component and an <b>Internship</b> component. The <b>Header</b> component is the navigation bar which allows users to navigate between the linked pages on this website. The <b>Internship</b> component on the other hand is the content which varies on each linked page. My goal for the next little while is to publish my /home and /internship page rather than just my /<i>default</i> page. This means that if you refresh this page or the Home page, you will receive an error message but if you refresh the default page, it will work perfectly fine.</p>
+                    <p className='date'>(October 12, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
             </div>
         </body>
     )

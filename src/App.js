@@ -12,7 +12,8 @@ function App() {
       <div className="App">
           <Header />
           <Routes>
-              <Route path='home' element={<Home/>} />
+              <Route exact path='/'/>
+              <Redirect to='/home' />
               <Route path='internship' element={<Internship/>} />
           </Routes>
         </div>

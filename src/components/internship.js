@@ -129,6 +129,18 @@ function Internship() {
                 <br />
                 <br />
                 <br />
+
+                {/** New Section **/}
+                <img src="favicon update.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>Adding Favicons</h2>
+                <p className='paragraph'> I had a standup meeting with my mentor to discuss servers and how delays affect the updating process of a website. Hence, updates cannot be published onto a website instantly. To ensure website updates are successful, I can refresh without cache to display the HTTP response which would be a lot quicker than requesting from GitHub Page servers every time. Additionally, I added a favicon to this website. Originally, the favicon only appeared on the LocalHost but after carefully reviewing the code, I realized the path for the favicon was not set up correctly. After resolving this issue, the favicon successfully displayed onto this website.</p>
+                    <p className='date'>(October 13, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
             </div>
         </body>
     )

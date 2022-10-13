@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 class Header extends React.Component {
     render() { return (
             <div>
-                <title>Home</title>
                 <link rel="stylesheet" href="App.css" />
                 <link rel="stylesheet" href="index.css" />
                 <header>

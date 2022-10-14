@@ -5,7 +5,7 @@ function Internship() {
         <body>
             <div>
                 {/** Heading **/}
-                <h2 style={{"fontSize":"50px"}}>Internship Logs</h2>
+                <h2 className='introformat'>Internship Logs</h2>
                 
                 <br />
                 <br />
@@ -135,6 +135,18 @@ function Internship() {
                 <h2 className='subheading'>Adding Favicons</h2>
                 <p className='paragraph'> I had a standup meeting with my mentor to discuss servers and how delays affect the updating process of a website. Hence, updates cannot be published onto a website instantly. To ensure website updates are successful, I can refresh without cache to display the HTTP response which would be a lot quicker than requesting from GitHub Page servers every time. Additionally, I added a favicon to this website. Originally, the favicon only appeared on the LocalHost but after carefully reviewing the code, I realized the path for the favicon was not set up correctly. After resolving this issue, the favicon successfully displayed onto this website.</p>
                     <p className='date'>(October 13, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
+
+                {/** New Section **/}
+                <img src="Typewriter.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>Typewriter Effects</h2>
+                <p className='paragraph'>The typing animation on the Home page was created using the Typewriter package. This package enabled me to not only create a typing effect, but also enabled me to implement a pause effect, followed by a delete effect, and then a new typing effect. My goal for the upcoming day is to remove the blinking cursor from the typewriting effect as I believe it makes the effect more visually appealing. Additionally, I created a project section in which I will be uploading some of the projects I have done from tutorials as well as some of my side projects I am working on. Some of these projects include the Click Counter and To-Do List app I made through React tutorials.</p>
+                    <p className='date'>(October 14, 2022)</p>     
                 <p />
 
                 <br />

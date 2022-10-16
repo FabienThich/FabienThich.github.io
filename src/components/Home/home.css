@@ -1,0 +1,69 @@
+.introduction-font1 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  padding-left: 5cm;
+  margin-top: 5cm;
+  color: gray;
+  font-size: 40px; 
+}
+
+.introduction-font2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+  padding-left: 5cm;
+  margin-top: 10px;
+  color: black;
+  font-size: 80px;
+}
+
+.introduction-font3 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  padding-left: 5.1cm;
+  margin-top: -1cm;
+  color: gray;
+  font-size: 15px;
+}
+
+.introduction-image {
+  float: right;
+  width: 35%;
+  height: 35%;
+  padding-right: 200px;
+  margin-top: -10cm;
+}
+
+.typewriter1 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  padding-left: 5cm;
+  margin-top: 5cm;
+  color: gray;
+  font-size: 40px;
+  overflow: hidden;
+}
+
+.typewriter2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+  padding-left: 5cm;
+  margin-top: 40px;
+  color: black;
+  font-size: 80px;
+  overflow: hidden;
+  animation: typing 5s steps(60), blink-caret 5s;
+}
+
+.typewriter3 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  padding-left: 5.1cm;
+  margin-top: 1.1cm;
+  color: gray;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+.introformat {
+  font-size: 50px;
+}

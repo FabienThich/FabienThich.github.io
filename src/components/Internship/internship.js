@@ -1,11 +1,12 @@
 import React from 'react';
+import './internship.css'
 
 function Internship() {
     return(
         <body>
             <div>
                 {/** Heading **/}
-                <h2 className='introformat'>Internship Logs</h2>
+                <h2 className='introformatintern'>Internship Logs</h2>
                 
                 <br />
                 <br />

@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route, NavLink} from "react-router-dom";
 import { Link } from 'react-router-dom';
+import './header.css'
 
 class Header extends React.Component {
     render() { return (

@@ -4,7 +4,7 @@ import Header from "./components/Header/header";
 import Home from "./components/Home/home";
 import Internship from "./components/Internship/internship";
 import Projects from './components/Projects/projects';
-import {BrowserRouter as Router, Switch, Route, Routes, Navigate} from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 
 function App() {

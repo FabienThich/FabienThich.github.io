@@ -154,6 +154,18 @@ function Internship() {
                 <br />
                 <br />
                 <br />
+
+                {/** New Section **/}
+                <img src="Contacts.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>Multiple Components and Contact Forms</h2>
+                <p className='paragraph'>At the start of the day, I looked into page loaders. Unfortunately, most required the use of scss files which I am unfamiliar with. After that, I worked on creating a contact application that allows users to connect with me via my website. I completed the basic format of the application. I am aiming to complete the backend of the form by the end of this week. As well, I learned how to display multiple components. In other words, I linked my <b>About Me</b> component to my <b>Home</b> component. This means that when the <b>Home</b> component is loaded, the <b>About Me</b> component will load under the <b>Home</b> component. Additionally, I added my calculator project that I have been working on through React tutorials.</p>
+                    <p className='date'>(October 14, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
             </div>
         </body>
     )

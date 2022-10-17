@@ -1,0 +1,46 @@
+.introformatcontact {
+    font-size: 50px;
+  }
+
+.ul {
+    width: 103%;
+    margin-top: 2cm;
+}
+
+.li {
+    width: 100%;
+    list-style: none;
+    margin-bottom: 0;
+    overflow: hidden;
+    display: block;
+    position: relative;
+   
+}
+
+.inputName {
+    width: 7cm;
+    height: 1cm;
+}
+
+.inputEmail {
+    width: 7cm;
+    height: 1cm;
+}
+
+.inputSubject {
+    width: 7cm;
+    height: 1cm;
+}
+
+.inputMessage {
+    width: 7cm;
+    height: 3cm;
+}
+
+.flat-button {
+    width: 3cm;
+    height: 1cm;
+    text-align: center;
+    margin-right: 2.6cm;
+}
+

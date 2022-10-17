@@ -1,3 +1,5 @@
+/* HOME CSS*/
+
 .introduction-font1 {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: left;
@@ -66,4 +68,12 @@
 
 .introformat {
   font-size: 50px;
+}
+
+  /* ABOUT-ME CSS*/
+
+.setupformat {
+  padding-top: 6cm;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: gray;
 }

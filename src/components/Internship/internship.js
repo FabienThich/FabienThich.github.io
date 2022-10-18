@@ -15,7 +15,7 @@ function Internship() {
                 {/** New Section **/}
                 <img className='imgformat' src="First Repo.png"/>
                 <h2 className='subheading'>Git and GitHub</h2>
-                <p className='paragraph'>I completed half of the <a href="https://www.youtube.com/watch?v=RGOj5yH7evk&ab_channel=freeCodeCamp.org">"<u style={{"color":"blue"}}>Git and GitHub for Beginners - Crash Course.</u>"</a> From this, I learned the difference between Git and GitHub, along with Git commands such as "git push", "git add", "git commit" and "git clone." Additionally, I learned the basically terminologies used when working with Git and GitHub. As well, I learned about SSH keys and learned to generate my own for my GitHub account. The only thing I would do differently is to clone with HTTPS rather than SSH.</p>
+                <p className='paragraph'>I completed half of the <a href="https://www.youtube.com/watch?v=RGOj5yH7evk&ab_channel=freeCodeCamp.org" target="_blank">"<u style={{"color":"blue"}}>Git and GitHub for Beginners - Crash Course.</u>"</a> From this, I learned the difference between Git and GitHub, along with Git commands such as "git push", "git add", "git commit" and "git clone." Additionally, I learned the basically terminologies used when working with Git and GitHub. As well, I learned about SSH keys and learned to generate my own for my GitHub account. The only thing I would do differently is to clone with HTTPS rather than SSH.</p>
                     <p className='date'>(September 26, 2022)</p>
                 <p />
 
@@ -39,7 +39,7 @@ function Internship() {
                 {/** New Section **/}
                 <img className='imgformat' src="ToDoPic2.png"/>
                 <h2 className='subheading'>Introduction To React</h2>
-                <p className='paragraph'> I followed along a <a href="https://www.youtube.com/watch?v=hQAHSlTtcmY&ab_channel=WebDevSimplified"> <u style={{"color" : "blue"}}>React Tutorial.</u> </a>This tutorial does not cover the complex concepts of React but does cover the basics of React. I did not get to finish the tutorial, however, I did follow alongside. The tutorial demonstrated how to create a To-Do List using React as well as using npm and npx commands. The photo on the left shows a To-Do List that displays tasks in the console that the user typed into the textbox. As well, I successfully changed my default website page from my README.md file to <a href="/home"> <u style={{"color" : "blue"}}>Home.</u></a></p>
+                <p className='paragraph'> I followed along a <a href="https://www.youtube.com/watch?v=hQAHSlTtcmY&ab_channel=WebDevSimplified" target="_blank"> <u style={{"color" : "blue"}}>React Tutorial.</u> </a>This tutorial does not cover the complex concepts of React but does cover the basics of React. I did not get to finish the tutorial, however, I did follow alongside. The tutorial demonstrated how to create a To-Do List using React as well as using npm and npx commands. The photo on the left shows a To-Do List that displays tasks in the console that the user typed into the textbox. As well, I successfully changed my default website page from my README.md file to <a href="/home"> <u style={{"color" : "blue"}}>Home.</u></a></p>
                     <p className='date'>(September 28, 2022)</p>     
                 <p />
 
@@ -51,7 +51,7 @@ function Internship() {
                 {/** New Section **/}
                 <img className='imgformat' src="First App.png" />
                 <h2 className='subheading'>Click Counter</h2>
-                <p className='paragraph'> I developed a clicking app, or a simpler version of Cookie Clicker through a <a href="https://www.youtube.com/watch?v=b9eMGE7QtTk&ab_channel=JavaScriptMastery"> <u style={{"color" : "blue"}}>Crash Course.</u></a> This tutorial involves the uses of "Props" and "Hooks" such as "useStates." This clicking app does not only let to add by one, but allows you to subtract by one as well. After finishing this tutorial, I gained a better understanding of React's format. To further familiarize myself with React, I started another tutorial, "<a href="https://www.youtube.com/watch?v=dGcsHMXbSOA&ab_channel=developedbyed"><u style={{"color" : "blue"}}>React Tutorial For Beginners</u></a>" which puts more emphasis on the concepts and structures.</p>
+                <p className='paragraph'> I developed a clicking app, or a simpler version of Cookie Clicker through a <a href="https://www.youtube.com/watch?v=b9eMGE7QtTk&ab_channel=JavaScriptMastery" target="_blank"> <u style={{"color" : "blue"}}>Crash Course.</u></a> This tutorial involves the uses of "Props" and "Hooks" such as "useStates." This clicking app does not only let to add by one, but allows you to subtract by one as well. After finishing this tutorial, I gained a better understanding of React's format. To further familiarize myself with React, I started another tutorial, "<a href="https://www.youtube.com/watch?v=dGcsHMXbSOA&ab_channel=developedbyed" target="_blank"><u style={{"color" : "blue"}}>React Tutorial For Beginners</u></a>" which puts more emphasis on the concepts and structures.</p>
                     <p className='date'>(September 29, 2022)</p>
                 <p />
                 <br />

@@ -5,6 +5,7 @@ function Internship() {
     return(
         <body>
             <div>
+                
                 {/** Heading **/}
                 <h2 className='introformatintern'>Internship Logs</h2>
                 
@@ -159,7 +160,19 @@ function Internship() {
                 <img src="Contacts.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
                 <h2 className='subheading'>Multiple Components and Contact Forms</h2>
                 <p className='paragraph'>At the start of the day, I looked into page loaders. Unfortunately, most required the use of scss files which I am unfamiliar with. After that, I worked on creating a contact application that allows users to connect with me via my website. I completed the basic format of the application. I am aiming to complete the backend of the form by the end of this week. As well, I learned how to display multiple components. In other words, I linked my <b>About Me</b> component to my <b>Home</b> component. This means that when the <b>Home</b> component is loaded, the <b>About Me</b> component will load under the <b>Home</b> component. Additionally, I added my calculator project that I have been working on through React tutorials.</p>
-                    <p className='date'>(October 14, 2022)</p>     
+                    <p className='date'>(October 17, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
+
+                {/** New Section **/}
+                <img src="Life and Interests.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>Professional Life and Interests</h2>
+                <p className='paragraph'>With the use of CSS, I changed the colour of the scrollbar to a colour which matches the theme of this website. I used the link element "<b>::-webkit-scrollbar…</b>"" to change the width size, background and hover colour. As well, I worked on my Home page, specifically the <i>about me</i> section. I wrote a summary of my <b>Professional Life</b> and built a template for my <b>Personal Interest</b>. Before building the template, I spent some time learning how to write multiple texts in the same line. For example, “Stock Market”, “Track and Field”, and “Cooking” are different text blocks but are on the same lines. The dashes (-) prove that if texts are too large, they will automatically move onto the next line. For tomorrow, I will work on the contents and images for my <b>Personal Interest</b>.</p>
+                    <p className='date'>(October 19, 2022)</p>     
                 <p />
 
                 <br />

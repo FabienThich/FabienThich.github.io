@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './header.css'
+import Home from '../Home/home';
+import Projects from '../Projects/projects';
+import Internship from '../Internship/internship';
+import Contact from '../Contact/contact';
 
 class Header extends React.Component {
     render() { return (

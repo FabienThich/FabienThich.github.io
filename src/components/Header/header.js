@@ -11,11 +11,11 @@ class Header extends React.Component {
                     <h1><a href="https://fabienthich.github.io">Personal Website</a></h1>
                     <nav>
                         <ul>
-                            <li><Link to="home">Home</Link></li>
-                            <li><Link to="projects">Projects</Link></li>
+                            <li><Link to="Home">Home</Link></li>
+                            <li><Link to="Projects">Projects</Link></li>
                             <li><Link>Working...</Link></li>
-                            <li><Link to="internship">Internship Logs</Link></li>
-                            <li><Link to="contact">Contacts</Link></li>
+                            <li><Link to="Internship">Internship Logs</Link></li>
+                            <li><Link to="Contact">Contacts</Link></li>
                         </ul>
                     </nav>
                 </header>

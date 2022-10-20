@@ -170,7 +170,7 @@ function Internship() {
 
                 {/** New Section **/}
                 <img src="Life and Interests.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
-                <h2 className='subheading'>Professional Life and Interests</h2>
+                <h2 className='subheading'>Professional Summary and Interests</h2>
                 <p className='paragraph'>I changed the colour of the scrollbar to match the theme of this website. I used the element <b>::-webkit-scrollbar…</b> to change the width size, background and hover colour. As well, I worked on my Home page. I wrote a summary of my <b>Professional Life</b> and built a template for my <b>Personal Interest</b>. Before building the template, I spent some time learning how to write multiple text paragraphs in the same line. For example, “Stock Market”, “Track and Field”, and “Cooking” are different text paragraphs but are on the same lines. The dashes (-) prove that the different text paragraphs cannot overstep each other as they will automatically move onto the next line. My task for the next little while is to work on the contents and images for my <b>Personal Interest</b>.</p>
                     <p className='date'>(October 19, 2022)</p>     
                 <p />

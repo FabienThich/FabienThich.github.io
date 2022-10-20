@@ -12,8 +12,8 @@ class Header extends React.Component {
                     <h1><a href="https://fabienthich.github.io">Personal Website</a></h1>
                     <nav>
                         <ul>
-                            <li><NavLink exact="true" to="/">Home</NavLink></li>
-                            <li><NavLink exact="true" to="/projects">Project</NavLink></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/projects">Projects</Link></li>
                             <li><Link>Working...</Link></li>
                             <li><Link to="/internship">Internship Logs</Link></li>
                             <li><Link to="/contact">Contacts</Link></li>

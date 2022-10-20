@@ -179,6 +179,17 @@ function Internship() {
                 <br />
                 <br />
                 <br />
+                {/** New Section **/}
+                <img src="Bootstrap Code.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>Learning Bootstrap</h2>
+                <p className='paragraph'>My main task today was to fix the 404 error on this website that would pop up when the user refreshes any page except the home page. I had multiple blockers which led me to start learning Bootstrap as most solutions to the problem involved code that I could not recognize. I started off with watching a <a href='https://www.youtube.com/watch?v=Jyvffr3aCp0&ab_channel=WebDevSimplified' target='_blank'><u style={{"color" : "blue"}}>Bootstrap 5 Crash Course</u> </a>to get familiar with the framework. From working along with the video, I learned about containers, boxes, columns, and rows. As well, I messed around with resizing the rows and columns for small screens versus larger screens. Additionally, I temporarily added Bootstrap onto this website which led to a massive formatting issue resulting in text unalignment, image padding and and link colours. As a result, I decided to uninstall Bootstrap from this website and created a clone website for testing purposes.</p>
+                    <p className='date'>(October 20, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
             </div>
         </body>
     )

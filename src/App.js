@@ -10,7 +10,7 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 function App() {
   
   return ( 
-    <Router>
+    
       <div className="App">
           <Header />
           <Routes>
@@ -22,7 +22,7 @@ function App() {
               <Route path='contact' element={<Contact/>} />
           </Routes>
         </div>
-    </Router>     
+        
     
   );
 }

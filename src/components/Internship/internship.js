@@ -182,8 +182,20 @@ function Internship() {
                 {/** New Section **/}
                 <img src="Bootstrap Code.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
                 <h2 className='subheading'>Learning Bootstrap</h2>
-                <p className='paragraph'>My main task today was to fix the 404 error on this website that would pop up when the user refreshes any page except the home page. I had multiple blockers which led me to start learning Bootstrap as most solutions to the problem involved code that I could not recognize. I started off with watching a <a href='https://www.youtube.com/watch?v=Jyvffr3aCp0&ab_channel=WebDevSimplified' target='_blank'><u style={{"color" : "blue"}}>Bootstrap 5 Crash Course</u> </a>to get familiar with the framework. From working along with the video, I learned about containers, boxes, columns, and rows. As well, I messed around with resizing the rows and columns for small screens versus larger screens. Additionally, I temporarily added Bootstrap onto this website which led to a massive formatting issue resulting in text unalignment, image padding and and link colours. As a result, I decided to uninstall Bootstrap from this website and created a clone website for testing purposes.</p>
+                <p className='paragraph'>I attempted to fix the 404 error on this website that would not allow the user to refresh any page except home page without receiving an error. I had multiple blockers which led me to start learning Bootstrap as most solutions to the problem involved code that I could not recognize. I started off with watching a <a href="https://www.youtube.com/watch?v=Jyvffr3aCp0&ab_channel=WebDevSimplified" target="_blank"><u style={{"color" : "blue"}}>Bootstrap 5 Crash Course</u></a> to get familiar with the framework. From this, I learned about containers, boxes, columns, and rows. As well, I messed around with resizing the rows and columns for small screens versus larger screens. Additionally, I temporarily added Bootstrap onto this website which led to a massive formatting issue resulting in text unalignment, image padding and and link colours. As a result, I decided to uninstall Bootstrap from this website and created a clone website for testing purposes.</p>
                     <p className='date'>(October 20, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
+
+                {/** New Section **/}
+                <img src="Bootstrap Testing.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>Learning Bootstrap Cont'd</h2>
+                <p className='paragraph'>I attempted to rewrite my <b>Personal Interests</b> using Bootstrap. During this process, I read the <a href="https://getbootstrap.com/docs/5.2/layout/grid/" target="_blank"><u style={{"color" : "blue"}}>Grid System Documents</u></a> and revisited yesterdays video to obtain a better understanding of the framework. From this, I was able to style the column size for various screen sizes. As well I centered the images and texts as seen on the left. As of right now the code used to generate the image on the left can be seen at <b><i>/components/Home/about-me</i></b>, however, the code has been commented to prevent formatting error on this current website. Additionally, I added row gaps between the images and texts. My task for the upcoming days is to rewrite my Professional Summary using Bootstrap. In my own time, I will write the contents for my Personal Interests to they are ready to add to the website once it has been successfully reformatted using Bootstrap.</p>
+                    <p className='date'>(October 21, 2022)</p>     
                 <p />
 
                 <br />

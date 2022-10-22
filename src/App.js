@@ -5,14 +5,14 @@ import Home from "./components/Home/home";
 import Internship from "./components/Internship/internship";
 import Projects from './components/Projects/projects';
 import Contact from './components/Contact/contact';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 function App() {
   
   return ( 
     
       <div className="App">
-        <BrowserRouter>
+        <Router>
           <Header />
           <Routes>
               <Route path='/' element={<App />} />
@@ -22,7 +22,7 @@ function App() {
               <Route path='internship' element={<Internship/>} />
               <Route path='contact' element={<Contact/>} />
           </Routes>
-        </BrowserRouter>
+        </Router>
       </div>
       
   );

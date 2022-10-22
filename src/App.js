@@ -6,7 +6,7 @@ import Internship from "./components/Internship/internship";
 import Projects from './components/Projects/projects';
 import Contact from './components/Contact/contact';
 import NotFound from './components/NotFound/notfound';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
   return ( 
     
       <div className="App">
-        <BrowserRouter>
+        <Router>
           <Header />
           <Routes>
               <Route path='/' element={<App />} />
@@ -25,7 +25,7 @@ function App() {
               <Route path='/contact' element={<Contact/>} />
               <Route path='*' element={<NotFound/>} />
           </Routes>
-       </BrowserRouter> 
+        </Router>
       </div>
       
   );

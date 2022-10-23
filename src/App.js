@@ -12,7 +12,7 @@ function App() {
   return ( 
     
       <div className="App">
-        <Router basename='/FabienThich.github.io'>
+        <Router basename='/'>
           <Header />
           <Routes>
               <Route path='/' element={<App />} />

@@ -1,5 +1,8 @@
 .introformatintern {
     font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 2rem;
   }
 
 img {
@@ -19,15 +22,20 @@ img {
 .subheading {
   font-size: x-large;
   text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
 }
 
 .paragraph {
   font-size: 20px;
   text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 25px;
 }
 
 .date {
   text-align: left;
   padding-left: 20cm;
   font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
 }

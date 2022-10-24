@@ -7,8 +7,11 @@ function Internship() {
             <div>
                 
                 {/** Heading **/}
-                <h2 className='introformatintern'>Internship Logs</h2>
-                
+                <div className='containter'>
+                    <div className='row col-12 justify-content-center'>
+                        <h2 className='introformatintern text-md-center'>Internship Logs</h2>
+                    </div>
+                </div>
                 <br />
                 <br />
                 <br />
@@ -196,6 +199,18 @@ function Internship() {
                 <h2 className='subheading'>Learning Bootstrap Cont'd</h2>
                 <p className='paragraph'>I attempted to rewrite my <b>Personal Interests</b> using Bootstrap. During this process, I read the <a href="https://getbootstrap.com/docs/5.2/layout/grid/" target="_blank"><u style={{"color" : "blue"}}>Grid System Documents</u></a> and revisited yesterday's video to obtain a better understanding of the framework. From this, I was able to style the column size for various screen sizes. As well I centered the images and texts as seen on the left. As of right now the code used to generate the image on the left can be seen at <b><i>/components/Home/about-me</i></b>, however, the code has been commented to prevent formatting errors on this current website. Additionally, I added row gaps between the images and texts. My task for the upcoming days is to rewrite my Professional Summary using Bootstrap. In my own time, I will write the contents for my Personal Interests so they are ready to add to the website once it has been successfully reformatted using Bootstrap.</p>
                     <p className='date'>(October 21, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
+
+                {/** New Section **/}
+                <img src="Personal Interests.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>Adding Bootstrap</h2>
+                <p className='paragraph'>Today's main focus was to make the professional summary and personal interests in the home page responsive as well as making my Bootstrap code live on this website. During this process, I changed my screen size to various sizes to find the best preferred column units that correspond to the screen sizes; extra-small, medium, large, extra-large. Larger screens will allow users to see the image and texts of the professional summary and personal interest all in one row whereas small screens will view it as smaller rows stacked on top of each other. Additionally, I worked on changing the format from the default Bootstrap format to the normal or original format. For the next couple of days, I will work on reformatting the entire website.</p>
+                    <p className='date'>(October 24, 2022)</p>     
                 <p />
 
                 <br />

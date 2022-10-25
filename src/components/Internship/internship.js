@@ -220,7 +220,7 @@ function Internship() {
 
                 {/** New Section **/}
                 <img src="Project Format.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
-                <h2 className='subheading'>Adding Bootstrap</h2>
+                <h2 className='subheading'>Reformatting and Organising My Code</h2>
                 <p className='paragraph'>I had a meeting with my mentor to discuss career paths and tech. After the meeting, given the amount of time I had, I wanted to rewrite my navbar using React-Bootstrap. However, I had not finished reformatting my website using Bootstrap, and so I worked on reformatting the text on my website using Bootstrap. I still have to reformat the Bitmoji image on the home page. But before I start on that, I made sure to look over my code as the last couple of days of learning Bootstrap has made me comment multiple lines of code in case I would need it again - which has made my code look messy and heavy. Additionally, I looked into my CSS files to find any classes which I am not using. As well, I removed some unnecessary CSS style padding so Bootstrap does not interfere with the CSS stylesheets.</p>
                     <p className='date'>(October 25, 2022)</p>     
                 <p />

@@ -9,7 +9,7 @@ class Header extends React.Component {
                 <link rel="stylesheet" href="App.css" />
                 <link rel="stylesheet" href="index.css" />
                 <header>
-                    <h1><a href="https://fabienthich.github.io">Personal Website</a></h1>
+                    <h1><a href="https://fabienthich.github.io"><img src='favicon_io/favicon.ico' className='icon'></img></a></h1>
                     <nav>
                         <ul>
                             <li><Link to="/">Home</Link></li>

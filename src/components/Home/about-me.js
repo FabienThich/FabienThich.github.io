@@ -44,7 +44,7 @@ function AboutMe() {
                 {/**Personal Interest */}
                 
                 <div className='containter-fluid text-center'>
-                    <div className='row row justify-content-md-center row-cols gy-2'>
+                    <div className='row row justify-content-md-center'>
                         <div className='col-xxl-3 col-xl-7 col-lg-7 col-md-8 col-sm-11 col-xm-12'><img src='React Homepage.png' alt='In the works' />
                             <div className="row-xxl-3 row-xl-7 row-lg-7 row-md-8 row-sm-11 row-xm-12">
                                 <b>Stock Market - - - - -- - - - -- - - - -- - - - -- - - - -- - - - -</b>

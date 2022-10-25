@@ -107,57 +107,6 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.formatparagraph1 {
-  color: gray;
-  font-size: 20px;
-  float: left;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  padding-left: 4cm;
-  width: 8cm;
-}
-
-.formatparagraph2 {
-  color: gray;
-  font-size: 20px;
-  float: left;
-  padding-left: 4cm;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  width: 8cm;
-}
-
-.formatparagraph3 {
-  color: gray;
-  font-size: 20px;
-  float: left;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  padding-left: 4cm;
-  padding-right: 4cm;
-  width: 8cm;
-}
-
-.graphformatimage1 {
-  float: left;
-  width: 20%;
-  height: 20%;
-  padding-left: 4cm;
-
-}
-
-.graphformatimage2 {
-  float: center;
-  width: 20%;
-  height: 20%;
-  padding-left: 1cm;
-  padding-right: 1cm;
-}
-
-.graphformatimage3 {
-  float: right;
-  width: 20%;
-  height: 20%;
-  padding-right: 4cm;
-
-}
 
 /*padding-top: 6cm;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

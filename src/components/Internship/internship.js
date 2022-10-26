@@ -229,6 +229,18 @@ function Internship() {
                 <br />
                 <br />
                 <br />
+
+                {/** New Section **/}
+                <img src="Unaligned Contact.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>React-Boostrap Navbar</h2>
+                <p className='paragraph'>I created a hamburger dropdown menu using React-Bootstrap. I imported the Nav and Navbar components. From this, I was able to use elements such as <b>Navbar</b>, <b>Navbar.Brand</b>, <b>Navbar.Toggle</b>, and <b>Navbar.Collapse</b> to create a responsive navbar. As well, I need to clean up my CSS files again as I added a lot of new CSS styling for the new responsive navbar. When creating this new navbar CSS, I realized that I had been using styles for elements, not just styles for classes. With that being said, I need to reorganize my CSS files so they do not interfere with each other. As well, some of the blockers I encountered today originated from this interference. The unalignment in <a href='/projects'>Projects</a> and <a href='contact'>Contacts</a> was a result of this interference.</p>
+                    <p className='date'>(October 26, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
             </div>
         </body>
     )

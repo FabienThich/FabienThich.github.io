@@ -7,7 +7,7 @@ function Contact() {
             <div>
                 <div className='containter'>
                     <div className='row col-12 justify-content-center'>
-                        <h2 className='introformatintern text-md-center'>Contacts</h2>
+                        <h2 className='introformatproject text-md-center'>Contacts</h2>
                     </div>
                 </div>
 

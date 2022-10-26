@@ -5,6 +5,7 @@ import Home from "./components/Home/home";
 import Internship from "./components/Internship/internship";
 import Projects from './components/Projects/projects';
 import Contact from './components/Contact/contact';
+import 'bootstrap/dist/css/bootstrap.css';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 function App() {

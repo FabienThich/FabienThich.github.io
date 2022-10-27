@@ -9,20 +9,20 @@ class Header extends React.Component {
             <div>
                 <link rel="stylesheet" href="App.css" />
                 <link rel="stylesheet" href="index.css" />
-                <Navbar bg="myBlue" sticky='top' expand="sm" collapseOnSelect>
+                <Navbar className="myBlue" sticky='top' expand="sm" collapseOnSelect>
                     <Navbar.Brand>
                         <img src="favicon_io/favicon.ico" className="icon"/>
                     </Navbar.Brand>
 
                     <Navbar.Toggle />
-                    <Navbar.Collapse className='align'>
+                    <Navbar.Collapse className='align navbar-toggle-icon'>
                         <Nav>
                             <ul>
-                                <li><Link to="/" style={{"textDecoration" : "none", "color" : "black"}}>Home</Link></li>
-                                <li><Link to="/projects" style={{"textDecoration" : "none", "color" : "black"}}>Projects</Link></li>
-                                <li><Link style={{"textDecoration" : "none", "color" : "black"}}>Working...</Link></li>
-                                <li><Link to="/internship" style={{"textDecoration" : "none", "color" : "black"}}>Internship Logs</Link></li>
-                                <li><Link to="/contact" style={{"textDecoration" : "none", "color" : "black"}}>Contacts</Link></li>
+                                <li><Link to="/" className='navlink'>Home</Link></li>
+                                <li><Link to="/projects" className='navlink'>Projects</Link></li>
+                                <li><Link className='navlink'>Working...</Link></li>
+                                <li><Link to="/internship" className='navlink'>Internship Logs</Link></li>
+                                <li><Link to="/contact" className='navlink'>Contacts</Link></li>
                             </ul>
                         </Nav>
                     </Navbar.Collapse>

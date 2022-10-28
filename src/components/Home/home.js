@@ -28,7 +28,7 @@ function Home() {
                 <div className='typewriter2'>
                   <Typewriter
                     onInit={(typewriter) => {
-                    typewriter.typeString("TESTWELCOME!")
+                    typewriter.typeString("WELCOME!")
                     .pauseFor(200)
                     .deleteAll()
                     .typeString("FABIEN THICH")

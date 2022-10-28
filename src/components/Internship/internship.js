@@ -251,7 +251,19 @@ function Internship() {
                 <img src="Professional Summary.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
                 <h2 className='subheading'>Making Home Page Responsive</h2>
                 <p className='paragraph'>I spent some time reorganizing my CSS files and created new classes for my navigation links which counters the underlined navigation links and formatting errors which occurred while creating the hamburger dropdown menu. As well, I looked into styling the hamburger dropdown menu but I ended up putting it on hold as styling the hamburger menu would interfere with the larger screens version of this website. After that, I worked on making the rest of my Home page responsive. I am almost finished making the home page responsive as I still need to reformat the subheading, “Professional Summary” as well as the Bitmoji image. I did not necessarily run into any blockers, however, I somewhat jumped too many steps and needed to revisit basic Bootstrap Grid System materials before taking big steps.</p>
-                    <p className='date'>(October 27, 2022 Test)</p>     
+                    <p className='date'>(October 27, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
+
+                {/** New Section **/}
+                <img src="Pull Request.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>Pull Requests and APIs</h2>
+                <p className='paragraph'>I had a meeting with my mentor to discuss the future plans regarding this internship. As well, I learned about Git and Github branches, specifically how to create, delete and navigate between branches. Additionally, I learned about pull requests and sent one to this website. The purpose of these tasks is to familiarize myself with these tools as these are essential when collaborating with others on a project. After that, I watched a <a href="https://www.youtube.com/watch?v=GZvSYJDk-us&ab_channel=freeCodeCamp.org">YouTube video</a> about APIs to gain a better understanding of what they are and how they are used. A project idea that came to mind when watching this video was to create an app using an API which allows users to play a song, and the API would then display the name of the song, similar to Shazam. My goal for the next while is to explore and familiarize myself with APIs.</p>
+                    <p className='date'>(October 28, 2022)</p>     
                 <p />
 
                 <br />

@@ -7,8 +7,11 @@ function Internship() {
             <div>
                 
                 {/** Heading **/}
-                <h2 className='introformatintern'>Internship Logs</h2>
-                
+                <div className='containter'>
+                    <div className='row col-12 justify-content-center'>
+                        <h2 className='introformatintern text-md-center'>Internship Logs</h2>
+                    </div>
+                </div>
                 <br />
                 <br />
                 <br />
@@ -182,8 +185,73 @@ function Internship() {
                 {/** New Section **/}
                 <img src="Bootstrap Code.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
                 <h2 className='subheading'>Learning Bootstrap</h2>
+
                 <p className='paragraph'>My main task today was to fix the 404 error on this website that would pop up when the user refreshes any page except the home page. I had multiple blockers which led me to start learning Bootstrap as most solutions to the problem involved code that I could not recognize. I started off with watching a <a href='https://www.youtube.com/watch?v=Jyvffr3aCp0&ab_channel=WebDevSimplified' target='_blank'><u style={{"color" : "blue"}}>Bootstrap 5 Crash Course</u> </a>to get familiar with the framework. From working along with the video, I learned about containers, boxes, columns, and rows. As well, I messed around with resizing the rows and columns for small screens versus larger screens. Additionally, I temporarily added Bootstrap onto this website which led to a massive formatting issue resulting in text unalignment, image padding and and link colours. As a result, I decided to uninstall Bootstrap from this website and created a clone website for testing purposes.</p>
                     <p className='date'>(October 20, 2022 TEST)</p>     
+
+                <p className='paragraph'>I attempted to fix the 404 error on this website that would not allow the user to refresh any page except the home page without receiving an error. I had multiple blockers which led me to start learning Bootstrap as most solutions to the problem involved code that I could not recognize. I started off with watching a <a href="https://www.youtube.com/watch?v=Jyvffr3aCp0&ab_channel=WebDevSimplified" target="_blank"><u style={{"color" : "blue"}}>Bootstrap 5 Crash Course</u></a> to get familiar with the framework. From this, I learned about containers, boxes, columns, and rows. As well, I messed around with resizing the rows and columns for small screens versus larger screens. Additionally, I temporarily added Bootstrap onto this website which led to a massive formatting issue resulting in text unalignment, image padding and and link colours. As a result, I decided to uninstall Bootstrap from this website and created a clone website for testing purposes.</p>
+                    <p className='date'>(October 20, 2022)</p>     
+
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
+
+                {/** New Section **/}
+                <img src="Bootstrap Testing.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>Learning Bootstrap Cont'd</h2>
+                <p className='paragraph'>I attempted to rewrite my <b>Personal Interests</b> using Bootstrap. During this process, I read the <a href="https://getbootstrap.com/docs/5.2/layout/grid/" target="_blank"><u style={{"color" : "blue"}}>Grid System Documents</u></a> and revisited yesterday's video to obtain a better understanding of the framework. From this, I was able to style the column size for various screen sizes. As well I centered the images and texts as seen on the left. As of right now the code used to generate the image on the left can be seen at <b><i>/components/Home/about-me</i></b>, however, the code has been commented to prevent formatting errors on this current website. Additionally, I added row gaps between the images and texts. My task for the upcoming days is to rewrite my Professional Summary using Bootstrap. In my own time, I will write the contents for my Personal Interests so they are ready to add to the website once it has been successfully reformatted using Bootstrap.</p>
+                    <p className='date'>(October 21, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
+
+                {/** New Section **/}
+                <img src="Personal Interests.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>Adding Bootstrap</h2>
+                <p className='paragraph'>Today's main focus was to make the professional summary and personal interests in the home page responsive as well as making my Bootstrap code live on this website. During this process, I changed my screen size to various sizes to find the best preferred column units that correspond to the screen sizes; extra-small, medium, large, extra-large. Larger screens will allow users to see the image and texts of the professional summary and personal interest all in one row whereas small screens will view it as smaller rows stacked on top of each other. Additionally, I worked on changing the format from the default Bootstrap format to the normal or original format. For the next couple of days, I will work on reformatting the entire website.</p>
+                    <p className='date'>(October 24, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
+
+                {/** New Section **/}
+                <img src="Project Format.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>Reformatting and Organising My Code</h2>
+                <p className='paragraph'>I had a meeting with my mentor to discuss career paths and tech. After the meeting, given the amount of time I had, I wanted to rewrite my navbar using React-Bootstrap. However, I had not finished reformatting my website using Bootstrap, and so I worked on reformatting the text on my website using Bootstrap. I still have to reformat the Bitmoji image on the home page. But before I start on that, I made sure to look over my code as the last couple of days of learning Bootstrap has made me comment multiple lines of code in case I would need it again - which has made my code look messy and heavy. Additionally, I looked into my CSS files to find and delete any classes I am not using. As well, I removed some unnecessary CSS style padding so Bootstrap does not interfere with the CSS stylesheets.</p>
+                    <p className='date'>(October 25, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
+
+                {/** New Section **/}
+                <img src="Unaligned Contact.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>React-Boostrap Navbar</h2>
+                <p className='paragraph'>I created a hamburger dropdown menu using React-Bootstrap. I imported the Nav and Navbar components. From this, I was able to use elements such as <b>Navbar</b>, <b>Navbar.Brand</b>, <b>Navbar.Toggle</b>, and <b>Navbar.Collapse</b> to create a responsive navbar. As well, I need to clean up my CSS files again as I added a lot of new CSS styling for the new responsive navbar. When creating the CSS for this new navbar, I realized that I had been using styles for elements, not just styles for classes. With that being said, I need to reorganize my CSS files so they do not interfere with each other. Some of the blockers I encountered today originated from this interference. The unalignment in <a href='/projects'>Projects</a> and <a href='contact'>Contacts</a> was a result of this interference.</p>
+                    <p className='date'>(October 26, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
+
+                {/** New Section **/}
+                <img src="Professional Summary.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
+                <h2 className='subheading'>Making Home Page Responsive</h2>
+                <p className='paragraph'>I spent some time reorganizing my CSS files and created new classes for my navigation links which counters the underlined navigation links and formatting errors which occurred while creating the hamburger dropdown menu. As well, I looked into styling the hamburger dropdown menu but I ended up putting it on hold as styling the hamburger menu would interfere with the larger screens version of this website. After that, I worked on making the rest of my Home page responsive. I am almost finished making the home page responsive as I still need to reformat the subheading, “Professional Summary” as well as the Bitmoji image. I did not necessarily run into any blockers, however, I somewhat jumped too many steps and needed to revisit basic Bootstrap Grid System materials before taking big steps.</p>
+                    <p className='date'>(October 27, 2022)</p>     
                 <p />
 
                 <br />

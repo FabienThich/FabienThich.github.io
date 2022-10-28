@@ -1,5 +1,9 @@
 .introformatproject {
     font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 3rem;
+    text-align: center;
   }
 
 .subheading {
@@ -9,14 +13,10 @@
   
   .descHeading {
     font-size: x-large;
-    text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-left: 500px;
   }
   .imgformat2 {
     width: 15%;
     height: 15%;
-    float: left;
-    padding-left: 200px;
   }
 

@@ -5,8 +5,13 @@ function Contact() {
     return(
         <body>
             <div>
-                <h2 className='introformatcontact'>Contacts</h2>
-                <p>in the works...</p>
+                <div className='containter'>
+                    <div className='row col-12 justify-content-center'>
+                        <h2 className='introformatproject text-md-center'>Contacts</h2>
+                    </div>
+                </div>
+
+                <p className='contacttext'>in the works...</p>
                 <ul className='ul'>
                     <li className='li'>
                         <input className='inputName' type="text" name="name" placeholder="Name" required />

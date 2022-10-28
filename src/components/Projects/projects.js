@@ -1,21 +1,31 @@
-import React from 'react';
-import './projects.css'
+import React from "react";
+import "./projects.css";
 
 function Projects() {
-    return(
-        <body>
-            <div>
-                {/** Heading **/}
-                <h2 className='introformatproject'>Projects</h2>
-                
-                <br />
-                <br />
-                <br />
-                <a href='https://fabienthich.github.io/calculator/' target='_blank'><img src='Calculator.png' className='imgformat2'/></a>
-                <p className='descHeading'>Calculator</p>
-            </div>
-        </body>
-    )
+  return (
+    <body>
+      <div>
+        {/** Heading **/}
+        <h2 className="introformatproject">Projects</h2>
+
+        <br />
+        <br />
+        <br />
+
+        <div className="containter">
+          <div className="col justify-content-center">
+            <p className="descHeading">Calculator</p>
+          </div>
+
+          <div className="col justify-content-center">
+            <a href="https://fabienthich.github.io/calculator/" target="_blank">
+              <img src="Calculator.png" className="imgformat2" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </body>
+  );
 }
 
 export default Projects;

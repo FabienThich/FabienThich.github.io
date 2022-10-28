@@ -246,7 +246,7 @@ function Internship() {
                 <img src="Professional Summary.png" style={{"paddingLeft" : "10px", "paddingRight" : "10px", "width" : "410px", "height" : "200px", "float" : "left"}}/>
                 <h2 className='subheading'>Making Home Page Responsive</h2>
                 <p className='paragraph'>I spent some time reorganizing my CSS files and created new classes for my navigation links which counters the underlined navigation links and formatting errors which occurred while creating the hamburger dropdown menu. As well, I looked into styling the hamburger dropdown menu but I ended up putting it on hold as styling the hamburger menu would interfere with the larger screens version of this website. After that, I worked on making the rest of my Home page responsive. I am almost finished making the home page responsive as I still need to reformat the subheading, “Professional Summary” as well as the Bitmoji image. I did not necessarily run into any blockers, however, I somewhat jumped too many steps and needed to revisit basic Bootstrap Grid System materials before taking big steps.</p>
-                    <p className='date'>(October 27, 2022)</p>     
+                    <p className='date'>(October 27, 2022 Test)</p>     
                 <p />
 
                 <br />

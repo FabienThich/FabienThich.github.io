@@ -1,5 +1,6 @@
-# Personal Website With React
+# Personal Website
 <br>
+This website was made using React and Bootstrap.
 <br>
 <br>
 <br>

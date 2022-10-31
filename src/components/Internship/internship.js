@@ -266,6 +266,18 @@ function Internship() {
                 <br />
                 <br />
                 <br />
+                
+                {/** New Section **/}
+                <img className='imgformat' src="JP Website.png"/>
+                <h2 className='subheading'>GET Requests</h2>
+                <p className='paragraph'>I started the day continuing with the video mentioned in the previous log about APIs. From this, I better understood how the web works, specifically the process of receiving data from servers. I learned that a browser receives information through creating a HTTP request to a server along with a <b>Uniform Resource Identifier</b> (URI) and a HTTP verb, <b>GET</b> in our case. After that, I watched a <a href="https://www.youtube.com/watch?v=MouZdENJddQ&ab_channel=codebubb">YouTube video</a> to help make a GET request. The code on the left outputs the data or HTML page that is associated with that Uniform Resource Locator (URL), in the console. As well, I swapped the URL with <i>“https://www.youtube.com/”</i>  which ended up logging a ton of data. Additionally, I looked into APIs for tracking stocks. One in particular that caught my eye was the <a href='https://developer.tdameritrade.com/apis'>TD Ameritrade API</a>.</p>
+                    <p className='date'>(October 31, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
             </div>
         </body>
     )

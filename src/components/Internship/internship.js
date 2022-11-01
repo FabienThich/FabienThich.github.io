@@ -278,6 +278,18 @@ function Internship() {
                 <br />
                 <br />
                 <br />
+
+                {/** New Section **/}
+                <img className='imgformat' src="Directory.png"/>
+                <h2 className='subheading'>Directory Commands</h2>
+                <p className='paragraph'>I resolved an issue that caused my code editor, VSCode, to handle excess folders that I did not mean for it to handle. My mentor brought this issue to my attention as he realized I had a large amount of files in my source control in VSCode which should not have been there. To resolve this issue, I had to use directory commands such as “cd ..” which directs the user to the home directly, “ls -a” which lists all files, and “rm -rf .git” which removes specific files from a Git repository. Additionally, I looked into another API, Node Stock Data, which uses Node.JS to track stocks and get current or historical data on any stock. As well, I looked through a GitHub page which demonstrates how to use the Node Stock Data API.</p>
+                    <p className='date'>(November 1, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
             </div>
         </body>
     )

@@ -11,7 +11,7 @@ class Header extends React.Component {
                 <link rel="stylesheet" href="index.css" />
                 <Navbar className="myBlue" sticky='top' expand="sm" collapseOnSelect>
                     <Navbar.Brand>
-                        <img src="favicon_io/favicon.ico" className="icon"/>
+                        <a href="https://fabienthich.github.io/"><img src="favicon_io/favicon.ico" className="icon"/></a>
                     </Navbar.Brand>
 
                     <Navbar.Toggle />

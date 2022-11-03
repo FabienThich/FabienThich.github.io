@@ -290,6 +290,18 @@ function Internship() {
                 <br />
                 <br />
                 <br />
+
+                {/** New Section **/}
+                <img className='imgformat' src="API Compare.png"/>
+                <h2 className='subheading'>Comparing APIs</h2>
+                <p className='paragraph'>I did more research on stock market APIs to which I can then create a Google Sheets to compare the pros and cons of each API. Some of the APIs I discovered are <a href="http://polygon.io/">Polygon.io</a>, <a href="https://finnhub.io/">Finnhub</a>, and <a href="https://www.alphavantage.co/">Alpha Vantage</a>. After comparing these three with Node Stock Data and TD Ameritrade API, I came to a conclusion that TD Ameritrade API and Polygon.io will most likely meet the needs of our program because they offer a reasonable amount of request limits, historical and fundamental data. After this, I tried to create a TD Ameritrade API account so I can start playing around with the API. During this process, I got several errors that stopped me from authenticating my account to receive the API key. In the meantime, I have decided to move onto playing around with Polygon.io.</p>
+                    <p className='date'>(November 3, 2022)</p>     
+                <p />
+
+                <br />
+                <br />
+                <br />
+                <br />
             </div>
         </body>
     )

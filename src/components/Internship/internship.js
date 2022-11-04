@@ -7,16 +7,25 @@ function Internship() {
             <div className='container-fluid'>
 
                 {/** Heading **/}
-                    <div className='row col-12 text-center'>
-                        <h2 className='introformatintern text-md-center'>Internship Logs</h2>
+                <div className='row col-12 text-center'>
+                    <h2 className='introformatintern text-md-center'>Internship Logs</h2>
+                </div>
+
+                <div className='row text-center'>
+                    <div className='col-12'>
+                        <p>Navigate To:</p>
+                        <div className='row'><a href='#sept-tag'>September Logs</a></div>
+                        <div className='row'><a href='#oct-tag'>October Logs</a></div>                    
+                        <div className='row'><a href='#nov-tag'>November Logs</a></div>
                     </div>
+                </div>
 
                 {/** New Section **/}
                 <div className='row col justify-content-center'>
-                    <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-11 col-xm-12'>
+                    <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
                         <img className='imgformat' src="First Repo.png"/>
                     </div>
-                    <div className='col-xxl-8 col-xl-9 col-lg-6 col-md-6 col-sm-11 col-xm-12'>
+                    <div className='col-xxl-8 col-xl-9 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
                         <h2 className='subheading'>Git and GitHub</h2>
                         <p className='paragraph'>I completed half of the <a href="https://www.youtube.com/watch?v=RGOj5yH7evk&ab_channel=freeCodeCamp.org" target="_blank">"<u style={{"color":"blue"}}>Git and GitHub for Beginners - Crash Course.</u>"</a> From this, I learned the difference between Git and GitHub, along with Git commands such as "git push", "git add", "git commit" and "git clone." Additionally, I learned the basically terminologies used when working with Git and GitHub. As well, I learned about SSH keys and learned to generate my own for my GitHub account. The only thing I would do differently is to clone with HTTPS rather than SSH.</p>
                     </div>
@@ -82,18 +91,20 @@ function Internship() {
                 </div>
 
                 {/** New Section **/}
-                <div className='row col justify-content-center'>
-                    <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
-                        <a href='shortcuts.txt' target="_blank"><img className='imgformat' src="Shortcuts.png"/></a>
-                    </div>
-                    <div className='col-xxl-8 col-xl-9 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
-                        <h2 className='subheading'>Learning About Windows Shortcuts</h2>
-                        <p className='paragraph'> I started off the day of picking it up from where I left off. I successfully converted all of my <i>Internship-Logs</i> content into React format. As well I spent some time trying to resolve issues relating to React Routers and Switches. Unfortunately, I had no success but I got a lead from my mentor. Soon after, I had a meeting with my mentor to which he taught me windows shortcuts, which are essential to becoming a great software engineer. From this, I was able to navigate around my computer more effectively and efficiently without a mouse. Click image for <a href="shortcuts.txt" target="_blank"><u style={{"color" : "blue"}}>Shortcuts Text File.</u></a></p>
-                    </div>
-                    <div className='row'>
-                        <p className='date'>(October 3, 2022)</p> 
-                    </div>
-                </div> 
+                <a id='oct-tag'>
+                    <div className='row col justify-content-center'>
+                        <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
+                            <a href='shortcuts.txt' target="_blank"><img className='imgformat' src="Shortcuts.png"/></a>
+                        </div>
+                        <div className='col-xxl-8 col-xl-9 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
+                            <h2 className='subheading'>Learning About Windows Shortcuts</h2>
+                            <p className='paragraph'> I started off the day of picking it up from where I left off. I successfully converted all of my <i>Internship-Logs</i> content into React format. As well I spent some time trying to resolve issues relating to React Routers and Switches. Unfortunately, I had no success but I got a lead from my mentor. Soon after, I had a meeting with my mentor to which he taught me windows shortcuts, which are essential to becoming a great software engineer. From this, I was able to navigate around my computer more effectively and efficiently without a mouse. Click image for <a href="shortcuts.txt" target="_blank"><u style={{"color" : "blue"}}>Shortcuts Text File.</u></a></p>
+                        </div>
+                        <div className='row'>
+                            <p className='date'>(October 3, 2022)</p> 
+                        </div>
+                    </div> 
+                </a>
 
                 {/** New Section **/}
                 <div className='row col justify-content-center'>
@@ -322,18 +333,20 @@ function Internship() {
                 </div>  
 
                 {/** New Section **/}
-                <div className='row col justify-content-center'>
-                    <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
-                        <img className='imgformat' src="Directory.png"/>
-                    </div>
-                    <div className='col-xxl-8 col-xl-9 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
-                        <h2 className='subheading'>Directory Commands</h2>
-                        <p className='paragraph'>I resolved an issue that caused my code editor, VSCode, to handle excess folders that I did not mean for it to handle. My mentor brought this issue to my attention as he realized I had a large amount of files in my source control in VSCode which should not have been there. To resolve this issue, I had to use directory commands such as “<b>cd ..</b>” which directs the user to the home directly, “<b>ls -a</b>” which lists all files, and “<b>rm -rf .git</b>” which removes specific files from a Git repository. Additionally, I looked into another API, <a href="https://www.npmjs.com/package/node-stock-data" target="_blank">Node Stock Data</a>, which uses Node.JS to track stocks and get current or historical data on any stock. As well, I looked through a <a href="https://github.com/bbialke/node-stock-data" target='_blank'>GitHub page</a> which demonstrates how to use the Node Stock Data API.</p>
-                    </div>
-                    <div className='row'>
-                        <p className='date'>(November 1, 2022)</p>
-                    </div>
-                </div> 
+                <a id='nov-tag'>
+                    <div className='row col justify-content-center'>
+                        <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
+                            <img className='imgformat' src="Directory.png"/>
+                        </div>
+                        <div className='col-xxl-8 col-xl-9 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
+                            <h2 className='subheading'>Directory Commands</h2>
+                            <p className='paragraph'>I resolved an issue that caused my code editor, VSCode, to handle excess folders that I did not mean for it to handle. My mentor brought this issue to my attention as he realized I had a large amount of files in my source control in VSCode which should not have been there. To resolve this issue, I had to use directory commands such as “<b>cd ..</b>” which directs the user to the home directly, “<b>ls -a</b>” which lists all files, and “<b>rm -rf .git</b>” which removes specific files from a Git repository. Additionally, I looked into another API, <a href="https://www.npmjs.com/package/node-stock-data" target="_blank">Node Stock Data</a>, which uses Node.JS to track stocks and get current or historical data on any stock. As well, I looked through a <a href="https://github.com/bbialke/node-stock-data" target='_blank'>GitHub page</a> which demonstrates how to use the Node Stock Data API.</p>
+                        </div>
+                        <div className='row'>
+                            <p className='date'>(November 1, 2022)</p>
+                        </div>
+                    </div> 
+                </a>
 
                 {/** New Section **/}
                 <div className='row col justify-content-center'>

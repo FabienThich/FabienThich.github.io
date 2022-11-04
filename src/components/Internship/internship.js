@@ -374,6 +374,19 @@ function Internship() {
                         <p className='date'>(November 3, 2022)</p>
                     </div>
                 </div>
+                {/** New Section **/}
+                <div className='row col justify-content-center'>
+                    <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
+                        <img className='imgformat' src='Format Logs.png'/>
+                    </div>
+                    <div className='col-xxl-8 col-xl-9 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
+                        <h2 className='subheading'>Reformatting Internship Logs</h2>
+                        <p className='paragraph'>I revisited Bootstrap to reformat the Internship Logs. To resolve conflicts between the CSS styles and Bootstrap styles, I had to go into the CSS stylesheets to remove unnecessary styling that would interfere with the Bootstrap styling. This means that the Internship Logs section is now fully responsive. Additionally, I discussed APIs with my mentor to which we can then proceed to create a program with that API to return the current price of a stock along with additional data such as historical and fundamental data. After discussing, we settled on <a href='https://twelvedata.com/' target='_blank'>Twelve Data</a> to help us achieve this task. As well, I found a <a href='https://www.youtube.com/watch?v=egnRORUThx0&ab_channel=FundyCoding' target='_blank'>YouTube video</a> which demonstrates how to use the Twelve Data API using Node JS.</p>
+                    </div>
+                    <div className='row'>
+                        <p className='date'>(November 4, 2022)</p>
+                    </div>
+                </div>
 
                 {/** New Section **/}
                 {/**LOGS TEMPLATE

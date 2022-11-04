@@ -3,6 +3,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     margin-top: 3rem;
+    padding-bottom: 6rem;
   }
 
 img {
@@ -11,11 +12,8 @@ img {
 
 
 .imgformat {
-  float: left;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 27%;
-  height: 27%;
+  width: 100%;
+  height: 100%;
 }
 
 .subheading {
@@ -33,8 +31,7 @@ img {
 }
 
 .date {
-  text-align: left;
-  padding-left: 20cm;
+  text-align: center;
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
 }

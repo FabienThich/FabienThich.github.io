@@ -4,8 +4,13 @@ import "./education.css";
 function Education() {
   return (
     <body>
-      <div>
-        <p>Work in progress</p>
+      <div className="container-fluid">
+
+        {/** Heading **/}
+        <div className="row col-12 text-center">
+          <h2 className="introformateducation text-md-center">Education</h2>
+        </div>
+
       </div>
     </body>
   );

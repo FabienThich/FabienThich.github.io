@@ -389,6 +389,20 @@ function Internship() {
                 </div>
 
                 {/** New Section **/}
+                <div className='row col justify-content-center'>
+                    <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
+                        <img className='imgformat' src='Apple Info.png'/>
+                    </div>
+                    <div className='col-xxl-8 col-xl-9 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
+                        <h2 className='subheading'>SEC.gov API</h2>
+                        <p className='paragraph'>I had a meeting with my mentor to discuss how to use Git when collaborating with others on a project as well as new plans for the stock tracking project. Instead of using the Twelve Data API, I was tasked to explore the SEC.gov API which is essentially an APIs that returns the submission history of financial statements from public traded companies in JSON-formatted data. I had many blockers along the way which prevented me from using this API to return clean values of the revenue, income and profit margin of companies during a quarterly and annual time period. However, I did have success in creating a GET request to GET the submission history of Apple Inc along with information such as their address, phone number, and former names.</p>
+                    </div>
+                    <div className='row'>
+                        <p className='date'>(November 7, 2022)</p>
+                    </div>
+                </div>
+
+                {/** New Section **/}
                 {/**LOGS TEMPLATE
                 <div className='row col justify-content-center'>
                     <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>

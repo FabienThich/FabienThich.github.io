@@ -403,6 +403,20 @@ function Internship() {
                 </div>
 
                 {/** New Section **/}
+                <div className='row col justify-content-center'>
+                    <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
+                        <img className='imgformat' src='Apple 10-K.png'/>
+                    </div>
+                    <div className='col-xxl-8 col-xl-9 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
+                        <h2 className='subheading'>Form 10-K & 10-Q</h2>
+                        <p className='paragraph'>I had a meeting with my mentor to discuss pull requests and comparing changes on GitHub. After that, I looked into where I could access the Form 10-K and 10-Q of a public traded company such as Apple Inc. Eventually, I found the 10-K and 10-Q Form for Apple Inc. This form includes data such as their net sales, cost of sales, operating expenses, operating income, and net income. My task is to display this information on a webpage. I started with researching how to read HTML data with JavaScript, however, I could not find a solution. Most solutions I came across were solutions to create a form to which users can upload files which displays the data in it. My task is to essentially eliminate the the form to upload files and create a solution which reads HTML data using JavaScript.</p>
+                    </div>
+                    <div className='row'>
+                        <p className='date'>(November 8, 2022)</p>
+                    </div>
+                </div>
+
+                {/** New Section **/}
                 {/**LOGS TEMPLATE
                 <div className='row col justify-content-center'>
                     <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>

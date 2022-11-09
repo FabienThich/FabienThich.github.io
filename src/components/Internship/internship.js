@@ -417,6 +417,20 @@ function Internship() {
                 </div>
 
                 {/** New Section **/}
+                <div className='row col justify-content-center'>
+                    <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
+                        <img className='imgformat' src='Trade.png'/>
+                    </div>
+                    <div className='col-xxl-8 col-xl-9 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
+                        <h2 className='subheading'>Adding a Trade Entry</h2>
+                        <p className='paragraph'>I worked on my mentor's personal website. I added a new trading entry to his investment portfolio section of his website, specifically the Tesla (TSLA) entry on November 9, 2022. To add this new entry, I had to work with JSON to enter the Date, Security, Ticker, Quantity, OrderType, and Price values associated with the stocks purchased. Additionally, I skimmed through the <a href='https://www.sec.gov/info/edgar/specifications/pds_dissemination_spec.pdf' target='_blank'>EDGAR Public Dissemination Service (PDS) Technical Specification</a> documents. From this, I was able to grasp the format for the accession number, which should include the CIK, last two digits of the year the submission was filed, and the sequence number. As well, I found the <a href='https://www.sec.gov/info/edgar/forms/edgform.pdf' target='blank'>Index to Forms</a> document which taught me about EDGAR submission types such as 10-K and 10-Q.  </p>
+                    </div>
+                    <div className='row'>
+                    <p className='date'>(November 9, 2022)</p>
+                    </div>
+                </div>
+
+                {/** New Section **/}
                 {/**LOGS TEMPLATE
                 <div className='row col justify-content-center'>
                     <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>

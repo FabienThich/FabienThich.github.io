@@ -444,17 +444,31 @@ function Internship() {
                     </div>
                 </div>
 
+                <div className='row col justify-content-center'>
+                    <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
+                        <img className='imgformat' src='APPL NetIncomeLoss.png'/>
+                    </div>
+                    <div className='col-xxl-8 col-xl-9 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
+                        <h2 className='subheading'>Accessing EDGAR</h2>
+                        <p className='paragraph'>I received feedback about my progression at North P&D as well the project I have been tasked with. Additionally, I followed along with my mentor to find the net income figures which are a key component to this project. My mentor discovered a way to access the financial data types of a company using the SEC.gov API for which could be used to look up specific information. Onced called, would return different types of information the API has on the company such as their accounts payables, operating expenses and net income just to name a few. Knowing what kinds of information the API offers, we can then access them through “data.sec.gov/api/xbrl/companyconcept/CIK(#)/us-gaap/(Object).json” to find more specific information such as the figures for the accounts payables, operating expenses, and net income.</p>
+                    </div>
+                    <div className='row'>
+                        <p className='date'>(November 11, 2022)</p>
+                    </div>
+                </div>
+
                 {/** New Section **/}
                 {/**LOGS TEMPLATE
                 <div className='row col justify-content-center'>
                     <div className='col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
-
+                        <img className='imgformat' src=''/>
                     </div>
                     <div className='col-xxl-8 col-xl-9 col-lg-6 col-md-6 col-sm-11 col-xm-12 gy-5'>
-
+                        <h2 className='subheading'></h2>
+                        <p className='paragraph'></p>
                     </div>
                     <div className='row'>
-
+                        <p className='date'>()</p>
                     </div>
                 </div>*/}
 

@@ -20,7 +20,7 @@ class Header extends React.Component {
                             <ul>
                                 <li><Link to="/" className='navlink'>Home</Link></li>
                                 <li><Link to="/projects" className='navlink'>Projects</Link></li>
-                                <li><Link className='navlink'>Working...</Link></li>
+                                {/*<li><Link className='navlink'>Working...</Link></li>*/}
                                 <li><Link to="/internship" className='navlink'>Internship Logs</Link></li>
                                 <li><Link to="/education" className='navlink'>Education</Link></li>
                                 {/*<li><Link to="/contact" className='navlink'>Contacts</Link></li>8*/}

@@ -12,7 +12,7 @@ function Education() {
         </div>
         
         <div className="row">
-          <div className="col-xxl-4">
+          <div className="col-xxl-5">
             <p>Specialist High Skills Major</p>
             <video className='UNHackVideo' src='UNHack.mp4' autoplay="true" loop='true' />
           </div>

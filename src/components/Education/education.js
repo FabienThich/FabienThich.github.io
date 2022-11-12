@@ -8,7 +8,11 @@ function Education() {
 
         {/** Heading **/}
         <div className="row col-12 text-center">
-          <h2 className="introformateducation text-md-center">Education</h2>
+          <h2 className="introformateducation text-md-center">High School</h2>
+        </div>
+        
+        <div className="row">
+          <p>Specialist High Skills Major</p>
         </div>
 
       </div>

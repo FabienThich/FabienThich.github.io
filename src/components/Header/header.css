@@ -47,7 +47,7 @@ a{
   color: black;
 }
 
-.Navbar > .Navbar.Collapse > Nav > ul > li > Link > a:hover {
+a:hover {
   color: white;
   transition: 0.5s;
 }

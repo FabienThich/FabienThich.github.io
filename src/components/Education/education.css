@@ -1,7 +1,14 @@
 .introformateducation {
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    margin-top: 3rem;
-    padding-bottom: 5rem;
-  }
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.UNHackVideo {
+  width: 40%;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: black;
+}

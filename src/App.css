@@ -1,6 +1,6 @@
 /* Scrollbar */
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
     width: 0.75vw;
 }
 
@@ -14,4 +14,4 @@
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: #9dd9f3b6;
-}
+}*/

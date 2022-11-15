@@ -14,7 +14,7 @@ function Projects() {
 
         <div className="containter">
           <div className="col justify-content-center">
-            <p className="descHeading">Calculator</p>
+            <p className="descHeading">Calculator (Click for App)</p>
           </div>
 
           <div className="col justify-content-center">

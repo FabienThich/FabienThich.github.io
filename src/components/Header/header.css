@@ -46,8 +46,7 @@ a{
   text-decoration: none;
   color: black;
 }
-
-a:hover {
+.navlink:hover {
   color: white;
   transition: 0.5s;
 }

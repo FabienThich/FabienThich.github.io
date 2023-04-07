@@ -7,68 +7,66 @@ import AboutMe from "./about-me";
 
 function Home() {
   return (
-    <body>
-      <div>
-        <div className="containter">
-          <div className="row">
-            <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xm-12">
-              <div className="row-xxl-6 row-xl-6 row-lg-6 row-md-12 row-sm-12 row-xm-12 offset-2">
-                <div className="typewriter1">
-                  {/*TYPEWRITE 1*/}
-                  <Typewriter
-                    onInit={(typewriter) => {
-                      typewriter
-                        .typeString("HELLO...")
-                        .pauseFor(200)
-                        .deleteAll()
-                        .typeString("THIS IS ME")
-                        .start();
-                    }}
-                  />
-                </div>
+    <>
+      <div className="containter">
+        <div className="row">
+          <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xm-12">
+            <div className="row-xxl-6 row-xl-6 row-lg-6 row-md-12 row-sm-12 row-xm-12 offset-2">
+              <div className="typewriter1">
+                {/*TYPEWRITE 1*/}
+                <Typewriter
+                  onInit={(typewriter) => {
+                    typewriter
+                      .typeString("HELLO...")
+                      .pauseFor(200)
+                      .deleteAll()
+                      .typeString("THIS IS ME")
+                      .start();
+                  }}
+                />
               </div>
-              <div className="row-xxl-6 row-xl-6 row-lg-6 row-md-12 row-sm-12 row-xm-12 offset-2">
-                <div className="typewriter2">
-                  {/*TYPEWRITE 2*/}
-                  <Typewriter
-                    onInit={(typewriter) => {
-                      typewriter
-                        .typeString("WELCOME!")
-                        .pauseFor(200)
-                        .deleteAll()
-                        .typeString("FABIEN THICH")
-                        .start();
-                    }}
-                  />
-                </div>
-              </div>
-
-              <div className="row-xxl-6 row-xl-6 row-lg-6 row-md-12 row-sm-12 row-xm-12 offset-2">
-                <div className="typewriter3">
-                  {/*TYPEWRITE 1*/}
-                  <Typewriter
-                    onInit={(typewriter) => {
-                      typewriter
-                        .typeString("")
-                        .pauseFor(200)
-                        .typeString(
-                          "An intern at North P&D with a passion of becoming a software developer."
-                        )
-                        .start();
-                    }}
-                  />
-                </div>
+            </div>
+            <div className="row-xxl-6 row-xl-6 row-lg-6 row-md-12 row-sm-12 row-xm-12 offset-2">
+              <div className="typewriter2">
+                {/*TYPEWRITE 2*/}
+                <Typewriter
+                  onInit={(typewriter) => {
+                    typewriter
+                      .typeString("WELCOME!")
+                      .pauseFor(200)
+                      .deleteAll()
+                      .typeString("FABIEN THICH")
+                      .start();
+                  }}
+                />
               </div>
             </div>
 
-            <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xm-12 text-center">
-              <div className="row-xxl-6 row-xl-6 row-lg-6 row-md-12 row-sm-12 row-xm-12">
-                {/*Introduction Image*/}
-                <img
-                  className="introduction-image"
-                  src="Introduction Image.png"
+            <div className="row-xxl-6 row-xl-6 row-lg-6 row-md-12 row-sm-12 row-xm-12 offset-2">
+              <div className="typewriter3">
+                {/*TYPEWRITE 1*/}
+                <Typewriter
+                  onInit={(typewriter) => {
+                    typewriter
+                      .typeString("")
+                      .pauseFor(200)
+                      .typeString(
+                        "An intern at North P&D with a passion of becoming a software developer."
+                      )
+                      .start();
+                  }}
                 />
               </div>
+            </div>
+          </div>
+
+          <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xm-12 text-center">
+            <div className="row-xxl-6 row-xl-6 row-lg-6 row-md-12 row-sm-12 row-xm-12">
+              {/*Introduction Image*/}
+              <img
+                className="introduction-image"
+                src="Introduction Image.png"
+              />
             </div>
           </div>
         </div>
@@ -77,7 +75,7 @@ function Home() {
       <div>
         <AboutMe />
       </div>
-    </body>
+    </>
   );
 }
 

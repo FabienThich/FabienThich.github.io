@@ -19,14 +19,14 @@ function AboutMe() {
           </div>
           <div className="col-xxl-7 col-xl-7 col-lg-6 col-md-8 col-sm-12 col-xm-12">
             <p className="setupformatparagraph">
-              I am a student at Northview Heights Secondary School. I am part of
-              the Information and Communication Technologies sector of the
-              Specialist High Skills Major program with my major focus on
-              Computer Science. My short term goal is to gain admittance to the
-              University of Toronto for Computer Science. For my career goal, I
-              am aiming to work in the software development industry and build
-              softwares and applications to help assist users with tasks and
-              needs. (Need to update picture on the left)
+              I am a student at Northview Heights Secondary School, specializing
+              in Information and Communication Technologies within the
+              Specialist High Skills Major program. With a major focus on
+              Computer Science, my short-term goal is to gain admission to the
+              University of Toronto. In the long run, I aspire to work in the
+              software development industry, creating applications that can
+              assist users in achieving their tasks and needs effectively. (Need
+              to update picture on the left)
             </p>
           </div>
         </div>

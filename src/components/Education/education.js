@@ -23,9 +23,9 @@ function Education() {
 
           <div className="col-xxl-7">
             <div className="row">
-              <p className="SHSMTitle">Specialist High Skills Major Program</p>
+              <p className="UNHackTitle">Hackathon at York University - UNHack 2022</p>
               <div className="col">
-                <p className="SHSMParagraph">
+                <p className="UNHackParagraph">
                   Attended a hackathon hosted by Lassonde School of Engineering
                   at York University to solve problems relating to sustainable
                   cities and communities. The team I was part of aimed to

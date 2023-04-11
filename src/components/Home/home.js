@@ -2,7 +2,6 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import "./home.css";
 import "./about-me";
-import { Router } from "react-router-dom";
 import AboutMe from "./about-me";
 
 function Home() {

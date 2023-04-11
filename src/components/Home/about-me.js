@@ -6,7 +6,7 @@ function AboutMe() {
     <>
       {/**Professional Sumamary*/}
 
-      <div className="containter-fluid">
+      <div className="container">
         <div className="row">
           <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xm-12">
             <p className="setupformattitle">Professional Summary</p>

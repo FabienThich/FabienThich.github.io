@@ -7,7 +7,7 @@ import AboutMe from "./about-me";
 function Home() {
   return (
     <>
-      <div className="containter">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xm-12">
             <div className="row-xxl-6 row-xl-6 row-lg-6 row-md-12 row-sm-12 row-xm-12 offset-2">

@@ -50,7 +50,7 @@ function Home() {
                       .typeString("")
                       .pauseFor(200)
                       .typeString(
-                        "An intern at North P&D with a passion of becoming a software developer."
+                        "Previous Junior Software Engineer At North P&D, Inc."
                       )
                       .start();
                   }}

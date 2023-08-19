@@ -3,10 +3,8 @@ import "./internship.css";
 import Logs from "./logs.js";
 
 function Internship() {
-  const LogsReordered = [...Logs].sort((prev, next) => next.id - prev.id);
-  Logs.forEach((current, i) => {
-    current.id = i++;
-  });
+  let LogsReordered = [...Logs];
+  LogsReordered.reverse();
 
   return (
     <>

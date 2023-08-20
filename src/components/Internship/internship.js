@@ -3,8 +3,7 @@ import "./internship.css";
 import Logs from "./logs.js";
 
 function Internship() {
-  let LogsReordered = [...Logs];
-  LogsReordered.reverse();
+  const LogsReordered = [...Logs].reverse();
 
   return (
     <>
